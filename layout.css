@@ -1,0 +1,363 @@
+.main{
+
+    display: grid;
+    grid-template-columns: 100px 400px 100px;
+    grid-template-rows: 200px;
+    column-gap: 10px;
+    margin-top: 30px;
+}
+.catogory-box{
+    background-color: rgb(255, 255, 255);
+    height:375px;
+    
+}
+.slider{
+    background-color: lightgreen;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 185px 25px;
+    margin-bottom: 50px;
+}
+.wall-image{
+    height: 150px;
+    width: 400px;
+    object-fit:contain;
+    object-position: center;
+    margin-top: -3px;
+}
+.buttons-box
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: -42px;
+    
+   
+
+}
+.pic-button
+{
+    height: 30px;
+    background-color: rgb(253, 253, 253);
+    margin-bottom: 0px;
+    
+}
+.pic-button:hover{
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(67, 65, 65);
+}
+.slider-button-text{
+    
+    font-family: sans-serif;
+    color: grey;
+    font-size: 7px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.location-box{
+    background-color: white;
+    height: 175px;
+    width: 125px;
+    display: grid;
+    grid-template-rows: 100px 25px 15px 1fr;
+}
+
+.image{
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+}  
+
+.pin-image-div{
+    background-color:rgb(255, 255, 255) ;
+}
+.pin-image{
+    object-fit:cover;
+    object-position: center;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+.pin-text{
+    font-size: 6px;
+    font-family: sans-serif;
+    color:grey;
+    margin-left:3px;
+    text-align: center;
+}
+.pin-text-div{
+    background-color: white;
+    
+}
+.pin-input{
+width: 100px;
+border-style: solid;
+border-width: 0.1px;
+border-color: rgb(203, 200, 200);
+outline: none;
+background-color: rgb(238, 244, 244);
+border-radius: 2px;
+
+}
+input::placeholder{
+    font-family: sans-serif;
+    font-family: 1px;
+    padding-bottom: 5px;
+}
+.pin-input-div{
+    margin-left: 10px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.pin-button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
+    }
+    .pin-submit-div{
+  margin-left: 10px;
+  
+
+    }
+    .pin-submit-button{
+        width: 60px;
+        height: 16px;
+        background-color: rgb(49, 47, 47);
+        color: white;
+        font-family: sans-serif;
+        border: none;
+        font-size: 6px;
+        border-radius: 1px;
+ }
+ .pin-submit-button:hover{
+    opacity: 0.9;
+ }
+ .pin-next-button{
+    border-style: solid;
+    border-color: rgb(233, 230, 227);
+    background-color: rgb(230, 226, 226);
+    color: rgb(173, 173, 176);
+    width: 35px;
+    height: 16px;
+    font-size: 6px;
+ }
+ .pin-next-button-div{
+    margin-left: 5px;
+ }
+ .pin-next-button:hover{
+   color: rgb(97, 95, 95);
+ }
+
+ .products-box
+ {
+     height: 150px;
+     width: 530px;
+     margin-left: 0px;
+     margin-top: 10px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     column-gap: 0.5px;
+ }
+ .product:hover{
+   box-shadow: 1px 1px 5px rgb(97, 93, 93);
+
+ }
+ .product{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 120px 40px 35px;
+
+
+ }
+
+ .product-image-div
+ {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+ }
+ .product-image{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+  
+ }
+ .product-image-discription-div{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+ }
+ .product-image-discription{
+    font-size: 7.5px;
+    color: grey;
+ }
+ .product-image-discription-div{
+    margin-left:5px;
+    margin-right: 5px;
+
+ }
+ .cost-discription-div
+ {
+    margin-left: 10px;
+    margin-top: -16px;
+    width: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+ }
+ .cost-discription{
+    font-size: 8px;
+    font-weight:100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: -19px;
+    margin-left: -11px;
+    margin-top: 7px;
+    
+   
+}
+.strike-text{
+    color: lightgrey;
+    font-size: 8px;
+    margin-right: 0px;
+}
+.off-text{
+    border: 1px solid #ccc;
+    font-size: 8px;
+    font-family: sans-serif;
+    font-weight:100;
+    color: #ccc;
+    width: 25px;
+    margin-right: 20px;
+    margin-left: -20px;
+    margin-top: 7px;
+    padding-left: 2px;
+   
+   
+
+}
+.app-image-div{
+    height: 300px;
+    width: 700px;
+    margin-top: 220px;
+    margin-left: -550px;
+    background-color: rgb(255, 255, 255);
+
+ 
+
+}
+.app-image{
+    height: 200px;
+    width: 550px;
+    margin-top:20px;
+    margin-left: 100px;
+
+    
+}
+.text-trending{
+    height: 20px;
+    width: 200px;
+    margin-top: -10px;
+    margin-left:80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr 1fr 1fr 70px;
+    width:1000px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top:775px;
+    margin-left:-650px;
+    margin-right: -20px;
+}
+.footer-division{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #ccc;
+     display: grid;
+      
+}
+.footer-image{
+    height: 100px;
+    width:150px;
+    object-fit: contain;
+}
+.footer2{
+    background-color: rgb(254, 255, 255);
+    width: 700px;
+    height: 150px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 2fr;
+}
+.f-2{
+    margin-left: 10px;
+    text-align:start;
+    margin-top: 25px;
+
+}
+.f2,.s3{
+    font-size: 5.5px;
+    color:rgb(152, 152, 152);
+    font-family: arial;
+    margin-right: 0px;
+}
+.f2-heading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#344c55;
+    font-size: 6px;
+}
+a {
+    text-decoration:none;
+  }
+a:hover{
+    text-decoration:underline;
+    color:rgb(152, 152, 152) ;
+}
+.f-2-input{
+    width: 90px;
+    outline: none;
+    border-width: 0.5px;
+    margin-top: 5px;
+    margin-right: 5px; 
+    border: none;
+    background-color:rgb(236, 227, 227) ;  
+    
+}
+input::placeholder{
+    text-align: left;
+    margin-top: -2px;
+    color: rgb(152, 152, 152);
+    margin-right: 20px;
+}
+.s-button{
+    height: 19px;
+    width:60px;
+    background-color: black;
+    color: white;
+    font-size: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-box{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.s4{
+    margin-top: 4px;
+}
+.s1{
+    margin-top: 5px;
+}
+.sub-box{
+    margin-top: -5px;
+
+}
